@@ -1,4 +1,4 @@
-// program to store and display marks of student
+// Program to store and display marks of student
 #include<iostream>
 #include<vector>
 using namespace std;
