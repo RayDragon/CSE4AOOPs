@@ -26,6 +26,7 @@ def main_loop():
     print(display)
     choice = int(input())
     if choice==1:
+        print("haha")
         for fol in f_base.folders:
             print(f_base.folders.index(fol), (fol.name))
         ch=int(input())
@@ -49,7 +50,7 @@ def experiment_loop(exp_folder):
         f.close()
     choice = int(input())
     fil = exp_folder.files[choice]
-    os.system("code "+fil.name)
+    os.system("gedit "+fil.name)
 
 main_loop()
 

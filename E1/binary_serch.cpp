@@ -1,3 +1,4 @@
+// Program to print the position of an element in an accending array
 #include<iostream>
 #include "binary_serch.h"
 using namespace std;
